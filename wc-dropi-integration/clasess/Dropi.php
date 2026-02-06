@@ -157,6 +157,8 @@ class JPIODFW_Dropi
     }
 
     function update_stock_job() {
+
+        return true; //no quiero que se ejecute mas este cron
         
         $all_prods = wc_get_products(array( 
             'limit' => -1,

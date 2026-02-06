@@ -2,9 +2,9 @@
 Contributors: jhaineymilevis
 Tags: woocommerce, dropi, dropshipping
 Requires at least: 5.2.3
-Tested up to: 6.4.2
+Tested up to: 6.8.3
 Requires PHP: 7.0
-Stable tag: 4.6.9
+Stable tag: 4.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -122,8 +122,10 @@ You must register on dropi.co as a dropshipper. Then go to the My stores menu, a
 *se incorpora el multitoken*
 = 3.60 = 
 * Se agrega funcionalidad para Chile, Panamá, México*
-= 4.0 = 
+= 4.0 =
 * Se arregla el selector del checkout de ciudades*
+= 4.7.2 =
+* Se agrega soporte para Argentina (api.dropi.ar)
 
 == Upgrade Notice ==
 = 1.0 =
@@ -209,13 +211,14 @@ creacion y asignacion de categoria al producto sincronizado
 concatena la direccion 2
 = 3.58 = 
 se incorpora el multitoken
-= 4.0 = 
+= 4.0 =
 * Se arregla el selector del checkout de ciudades*
+= 4.7.2 =
+Se agrega soporte para Argentina
 
 == Screenshots ==
 1. This show how to configure plugin adding token
 2. This show how dropi products are showed
 
 
-svn cp trunk tags/2.0
-vn ci -m "tagging version 2.0"
+
