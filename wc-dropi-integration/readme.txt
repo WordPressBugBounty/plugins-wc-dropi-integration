@@ -4,7 +4,7 @@ Tags: woocommerce, dropi, dropshipping
 Requires at least: 5.2.3
 Tested up to: 6.8.3
 Requires PHP: 7.0
-Stable tag: 4.7.2
+Stable tag: 4.7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -126,6 +126,9 @@ You must register on dropi.co as a dropshipper. Then go to the My stores menu, a
 * Se arregla el selector del checkout de ciudades*
 = 4.7.2 =
 * Se agrega soporte para Argentina (api.dropi.ar)
+= 4.7.3 =
+* Se agrega soporte para Costa Rica (api.dropi.cr)
+* Se centraliza la URL de CloudFront de imágenes en Constants
 
 == Upgrade Notice ==
 = 1.0 =
@@ -215,6 +218,8 @@ se incorpora el multitoken
 * Se arregla el selector del checkout de ciudades*
 = 4.7.2 =
 Se agrega soporte para Argentina
+= 4.7.3 =
+Se agrega soporte para Costa Rica
 
 == Screenshots ==
 1. This show how to configure plugin adding token

@@ -257,7 +257,7 @@ class JPIODFW_Product_List extends WP_List_Table
 
         $img =   isset($item->gallery[0]) ? $item->gallery[0] : [];
         if (isset($img->urlS3) && !empty($img->urlS3)) {
-            $url =  'https://d39ru7awumhhs2.cloudfront.net/' . $img->urlS3;
+            $url =  $this->constants->CLOUDFRONT_URL . $img->urlS3;
 
             $img = '<img style="cursor:pointer" class="img-dropi-import" width="50px" src="' . $url . '" data-src="' . $url . '"/>';
         } else if (isset($img->url)) {

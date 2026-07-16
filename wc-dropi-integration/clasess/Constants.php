@@ -7,6 +7,7 @@ class JPIODFW_Constants
 
     public $API_URL = '';
     public $IMG_URL = '';
+    public $CLOUDFRONT_URL = '';
     public $STATUS_BORRADOR = 'PENDIENTE CONFIRMACION';
     public $CON_RECAUDO = 'CON RECAUDO';
     public $SIN_RECAUDO = 'SIN RECAUDO';
@@ -39,38 +40,52 @@ class JPIODFW_Constants
                     case 'CO':
                         $this->API_URL = 'https://api.dropi.co/integrations/';
                         $this->IMG_URL = 'https://api.dropi.co/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     case 'PA':
                         $this->API_URL = 'https://api.dropi.pa/integrations/';
                         $this->IMG_URL = 'https://api.dropi.pa/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     case 'MX':
                         $this->API_URL = 'https://api.dropi.mx/integrations/';
                         $this->IMG_URL = 'https://api.dropi.mx/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     case 'EC':
                         $this->API_URL = 'https://api.dropi.ec/integrations/';
                         $this->IMG_URL = 'https://api.dropi.ec/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     case 'CL':
                         $this->API_URL = 'https://api.dropi.cl/integrations/';
                         $this->IMG_URL = 'https://api.dropi.cl/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     case 'PE':
                         $this->API_URL = 'https://api.dropi.pe/integrations/';
                         $this->IMG_URL = 'https://api.dropi.pe/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     case 'ES':
                         $this->API_URL = 'https://api.dropi.com.es/integrations/';
                         $this->IMG_URL = 'https://api.dropi.com.es/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     case 'PY':
                         $this->API_URL = 'https://api.dropi.com.py/integrations/';
                         $this->IMG_URL = 'https://api.dropi.com.py/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     case 'AR':
                         $this->API_URL = 'https://api.dropi.ar/integrations/';
                         $this->IMG_URL = 'https://api.dropi.ar/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
+                        break;
+                    case 'CR':
+                        $this->API_URL = 'https://api.dropi.cr/integrations/';
+                        $this->IMG_URL = 'https://api.dropi.cr/';
+                        $this->CLOUDFRONT_URL = 'https://d39ru7awumhhs2.cloudfront.net/';
                         break;
                     default:
                         echo '<div class="notice notice-error is-dismissible">

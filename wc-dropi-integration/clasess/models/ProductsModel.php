@@ -814,7 +814,7 @@ class JPIODFW_ProductsModel
                     if (empty($img->urlS3)) {
                         $image_url        = $this->constants->IMG_URL .  $img->url; // Define the image URL here
                     } else {
-                        $image_url        = 'https://d39ru7awumhhs2.cloudfront.net/' .  $img->urlS3; // Define the image URL here
+                        $image_url        = $this->constants->CLOUDFRONT_URL .  $img->urlS3; // Define the image URL here
                     }
 
 
